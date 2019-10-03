@@ -5,16 +5,14 @@
 ** Task 03
 */
 
-void my_putchar(char c);
-
 int my_strlen(char const *str)
 {
     int b = 0;
     int c = 0;
-    // count the number of caracters
+
     while (str[b] != '\0') {
         b++;
-        c++; // We increment the counter
+        c++; 
     }
-    my_putchar(c + '0');
+    return (c);
 }
