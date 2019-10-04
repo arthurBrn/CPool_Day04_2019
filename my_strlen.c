@@ -12,7 +12,7 @@ int my_strlen(char const *str)
 
     while (str[b] != '\0') {
         b++;
-        c++; 
+        c++;
     }
     return (c);
 }

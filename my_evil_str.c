@@ -12,7 +12,7 @@ char *my_evil_str(char *str)
     int length = my_strlen(str);
     int half = length / 2;
     char swap;
-    
+
     for (int i = 0; i < half; i++) {
         swap = str[i];
         str[i] = str[length - 1 - i];
