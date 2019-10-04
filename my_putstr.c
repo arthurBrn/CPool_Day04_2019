@@ -5,6 +5,8 @@
 ** Task 02
 */
 
+void my_putchar(char c);
+
 int my_putstr(char const *str)
 {
     int a = 0;
