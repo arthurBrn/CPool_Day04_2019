@@ -1,4 +1,4 @@
-/*
+²/*
 ** EPITECH PROJECT, 2019
 ** my_evil_str
 ** File description:
@@ -11,7 +11,7 @@ char *my_evil_str(char *str)
 {
     int i = 0;
     int length = my_strlen(str);
-    int half = size / 2;
+    int half = length / 2;
     char swap;
     
     for (i; i < half; i++) {
